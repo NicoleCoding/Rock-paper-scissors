@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+h1 {
+    text-align: center;
+}
+
+#scoreBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+#rps-game {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+
+}
+
+#winner {
+    display: flex;
+    justify-content: center;
+}

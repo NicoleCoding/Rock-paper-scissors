@@ -84,17 +84,17 @@ function displayResults(result) {
 //Displays the winner of the game
 function displayWinner(winner) {
     const winnerElement = document.getElementById("winner");
-    winnerElement.textContent = winner === "You win!" ? "You win" : "Computer wins";
+    winnerElement.textContent = winner === "You win the game!" ? "You win the game" : "Computer wins the game!";
 }
 
 // At the end of the game, the winner is displayed. The function checks who has the higher score.
 function endGame() {
     gameOver = true;
     if(playerScore > computerScore) {
-        displayWinner("You win!");
+        displayWinner("You win the game!");
     }
     else if(playerScore < computerScore) {
-        displayWinner("Computer wins!");
+        displayWinner("Computer wins the game!");
     }
     else {
         displayWinner("It\'s a tie!")
